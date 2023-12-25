@@ -242,10 +242,4 @@ class VolumeManager {
     bool mSecureKeyguardShowing;
 };
 
-namespace android {
-namespace vold {
-android::status_t GetStorageSize(int64_t* storageSize);
-}
-}  // namespace android
-
 #endif

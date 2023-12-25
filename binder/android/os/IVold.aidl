@@ -134,8 +134,6 @@ interface IVold {
 
     void destroyDsuMetadataKey(@utf8InCpp String dsuSlot);
 
-    long getStorageSize();
-
     const int FSTRIM_FLAG_DEEP_TRIM = 1;
 
     const int MOUNT_FLAG_PRIMARY = 1;
